@@ -9,10 +9,18 @@
 <p>I'm hosted with GitHub Pages.</p>
 
 <div id="app">
-  {{ message } {message2}}
+  {{ message }}
 </div>
   
-  <script src = "index.js"></script>
+<div id="app-4">
+<ol>
+    <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
+</div>
+  
+<script src = "index.js"></script>
   
 </body>
 </html>
